@@ -1,0 +1,32 @@
+backend/package.json{
+  "name": "chrono-master-pro-backend",
+  "version": "0.1.0",
+  "description": "Advanced Clock, Timer, Stopwatch, and Alarm Application Backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest"
+  },
+  "keywords": ["clock", "timer", "alarm", "stopwatch"],
+  "author": "realarpan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "ts-node-dev": "^2.0.0",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4"
+  }
+}
