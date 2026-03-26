@@ -1,5 +1,4 @@
-# Chrono Master Pro
-
+# Advance Clock
 > Advanced Alarm, World Clock, Stopwatch & Timer Application with Interactive UI - Full Stack (Next.js + Express.js)
 
 ## 🎯 Features
